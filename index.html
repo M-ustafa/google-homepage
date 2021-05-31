@@ -1,17 +1,87 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset="utf-8">
-    <link href="styles.css" rel="stylesheet"> 
     <title>Google</title>
   </head>
+
+  <style>
+
+.input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 25px;
+    border-style: solid;
+}
+.buttons {
+    text-align: center;
+    padding-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.li-top {
+  float: right;
+  padding-left: 20px;
+}
+
+.sign-in {
+  background-color: blue;
+  color: white;
+}
+
+.logo {
+    display: block;
+    margin-left: 545px;
+    margin-right: auto;
+    padding-top: 40px;
+}
+
+.li-bottom {
+  display: inline;
+  padding-top: 250px;
+}
+  </style>
+
+
+
   <body>
-	
-	<img src="images/googlelogo.png" alt="Google" width="270" height="90">
+
+	 <ul> 
+	  <li class="li-top"><a href="#"><button class="sign-in">Sign in</button></a></li>
+	  <li class="li-top"><a href="#">Apps</a></li>
+	  <li class="li-top"><a href="#">İmages</a></li>
+	  <li class="li-top"><a href="#">Gmail</a></li>	 
+	</ul> 
+
+
+     	<img class="logo" src="images/googlelogo.png" alt="Google" width="270" height="90">
+	<input class="input" type="text" title="Search">
+       
+	<div class="buttons">
+	  <button>Google Search</button>
+	  <button>I'm Feeling Lucky</button>
+	<div>
 
 	
-    <button>Change user</button>
-   <script src="scripts/main.js"></script>
+	<ul>
+	  <li class="li-bottom" style="float:left; padding-right:20px;"><a href="#">About</a></li>
+	  <li class="li-bottom" style="float:left; padding-right:20px;"><a href="#">Advertising</a></li>
+	  <li class="li-bottom" style="float:left; padding-right:20px;"><a href="#">Business</a></li>
+	  <li class="li-bottom" style="float:left; padding-right:20px;"><a href="#">How Search works</a></li>
+	  <li class="li-bottom" style="float:right; padding-left:20px;"><a href="#">Settings</a></li>
+	  <li class="li-bottom" style="float:right; padding-left:20px;"><a href="#">Terms</a></li>
+	  <li class="li-bottom" style="float:right; padding-left:20px;"><a href="#">Privacy</a></li>
+	</ul>	
    
   </body>
 </html> 
